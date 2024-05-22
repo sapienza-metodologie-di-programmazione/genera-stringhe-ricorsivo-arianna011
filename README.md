@@ -1,6 +1,6 @@
 # Genera-stringhe ricorsivo
 
-Scrivere un **metodo ricorsivo *genera* ** che, dato in input un
+Scrivere un **metodo ricorsivo _genera_** che, dato in input un
 insieme di caratteri e un intero *k*, restituisca l’insieme di tutte le possibili
 stringhe di lunghezza *k* contenenti caratteri dall’insieme in input. 
 
@@ -14,7 +14,7 @@ restituisce l'insieme
 ``{ “aa”, “ab”, “ac”, “ba”, “bb”, “bc”, “ca”, “cb”, “cc”}``
 
 
-Successivamente, creare una **seconda versione del metodo *genera* ** che prende in input
+Successivamente, creare una **seconda versione del metodo _genera_** che prende in input
 un terzo parametro di tipo *java.util.function.Predicate*. Essa restituisce l'insieme di tutte le possibili stringhe di lunghezza
 *k* contenenti caratteri dall’insieme in input per le quali il metodo *test* del
 predicato passato in input restituisce ``true``. 
