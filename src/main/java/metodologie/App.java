@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 /**
  * Classe contenente il metodo statico ricorsivo "genera"
@@ -38,7 +39,7 @@ public class App
         Set<String> rec = genera(chars, k-1);
         
         for (char c : chars) {
-        	res.addAll(rec.stream().map(s -> c + s).filter(pred).toList());
+        	res.addAll(rec.stream().map(s -> c + s).filter(pred).collect(Collectors.toList()));
         }
         return res;
     }
