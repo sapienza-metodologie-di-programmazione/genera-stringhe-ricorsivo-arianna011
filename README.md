@@ -22,7 +22,7 @@ predicato passato in input restituisce ``true``.
 Ad esempio,
 
 ```
-genera(new HashSet<Character>(Arrays.asList(’a’, ’b’, ’c’)), 2, s -> s.contains(a));
+genera(new HashSet<Character>(Arrays.asList(’a’, ’b’, ’c’)), 2, s -> s.contains("a"));
 ```
 
 restituisce l'insieme `` { “aa”, “ab”, “ac”, “ba”, “ca” }``
